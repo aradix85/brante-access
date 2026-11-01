@@ -8,6 +8,10 @@ saves, popups, and endings. No mouse needed anywhere.
 
 Project page: https://github.com/rashadnaqeeb/brante-access
 
+This build comes from the fork https://github.com/aradix85/brante-access,
+which adds braille output: everything the mod says also reaches a braille
+display, with the same text as the speech. Report braille problems there.
+
 Requirements
 ------------
 

@@ -1,5 +1,7 @@
 # Brante Access
 
+> **This is a fork that adds braille output.** Everything the mod says also reaches a braille display, with the same text as the speech. Otherwise it is the original by rashadnaqeeb at version 1.2.1, which includes a Space key fix that is not in an official release yet. The braille change is offered upstream in rashadnaqeeb/brante-access#1. Download this build from the [Releases page of this fork](https://github.com/aradix85/brante-access/releases).
+
 A screen-reader accessibility mod for The Life and Suffering of Sir Brante. The goal is that the entire game is playable by a blind player with speech and keyboard alone - no mouse, no sighted assistance.
 
 ## About this project
