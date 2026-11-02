@@ -78,6 +78,7 @@ screen.credits = 製作人員
 # "鐵人格鬥者" is the game's own Traditional Chinese name for the Iron Man mode.
 screen.chapterselect = 章節選擇
 chapterselect.locked = 不可用，未到達
+chapterselect.progress = 章節之間不可用，請在讀取畫面重新開始章節
 chapterselect.ironman = 不可用，鐵人格鬥者模式
 
 hud.region = HUD

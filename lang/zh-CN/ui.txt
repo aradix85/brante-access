@@ -78,6 +78,7 @@ screen.credits = 制作人员
 # "铁人模式" is the game's own Simplified Chinese name for the Iron Man mode.
 screen.chapterselect = 章节选择
 chapterselect.locked = 不可用，未到达
+chapterselect.progress = 章节之间不可用，请在读取界面重新开始章节
 chapterselect.ironman = 不可用，铁人模式
 
 hud.region = HUD

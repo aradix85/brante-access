@@ -78,6 +78,7 @@ screen.credits = créditos
 # "Homem de Ferro" is the game's own Portuguese name for the Iron Man mode.
 screen.chapterselect = seleção de capítulo
 chapterselect.locked = indisponível, ainda não alcançado
+chapterselect.progress = indisponível entre capítulos, reinicie capítulos pela tela de carregamento
 chapterselect.ironman = indisponível, modo Homem de Ferro
 
 hud.region = HUD

@@ -77,6 +77,7 @@ screen.credits = créditos
 # "Modo Duro" is the game's own Castilian name for the Iron Man mode.
 screen.chapterselect = selección de capítulo
 chapterselect.locked = no disponible, aún no alcanzado
+chapterselect.progress = no disponible entre capítulos, reinicia capítulos desde la pantalla de carga
 chapterselect.ironman = no disponible, Modo Duro
 
 hud.region = HUD
