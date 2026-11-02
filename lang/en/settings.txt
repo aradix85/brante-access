@@ -15,3 +15,5 @@ bind.ui.end = Last item
 bind.ui.regionPrev = Previous region
 bind.ui.regionNext = Next region
 bind.mod.verbosity = Toggle verbosity
+bind.mod.backup = Back up the current save
+bind.mod.restore = Restore the newest backup

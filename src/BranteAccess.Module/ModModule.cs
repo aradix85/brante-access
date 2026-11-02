@@ -109,6 +109,16 @@ namespace BranteAccess.Module
                     Loc.T(Verbosity.Toggle() ? "verbosity.verbose" : "verbosity.concise"),
                     interrupt: true))
                 .AddBinding(KeyCode.V, ctrl: true);
+
+            // Global: player-made save backups (the game has no manual save). Ctrl+S copies the
+            // slot being played; Ctrl+L on the main menu restores the newest copy after a
+            // second press, and the game's Continue then loads it.
+            InputManager.Register("mod.backup", "Back up the current save", InputCategory.Global,
+                SaveBackups.Backup)
+                .AddBinding(KeyCode.S, ctrl: true);
+            InputManager.Register("mod.restore", "Restore the newest backup", InputCategory.Global,
+                SaveBackups.Restore)
+                .AddBinding(KeyCode.L, ctrl: true);
         }
 
         // The outer (poll-driven) screens. The window/popup/pause entries are silent generic

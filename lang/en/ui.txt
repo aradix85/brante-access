@@ -136,3 +136,12 @@ mainmenu.quit = Quit
 # position from navigator announcements; the new mode word is the whole announcement
 verbosity.verbose = verbose
 verbosity.concise = concise
+
+# Save backups (Ctrl+S in game, Ctrl+L on the main menu). The game itself only autosaves.
+backup.saved = Backup saved, chapter {chapter}, year {year}
+backup.none = No save to back up yet
+backup.failed = Backup failed, see the log
+backup.restore.mainmenu = Restoring a backup only works in the main menu
+backup.restore.none = No backups yet. Press Ctrl+S while playing to make one
+backup.restore.confirm = Restore the backup from chapter {chapter}, year {year}? Press Ctrl+L again to confirm
+backup.restored = Backup from chapter {chapter}, year {year} restored. Choose Continue to play from there

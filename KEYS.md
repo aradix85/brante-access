@@ -28,6 +28,12 @@ game's stock keys everywhere else (cutscene skips, text entry).
 - Ctrl plus V: toggle verbosity. Concise drops the control role word and the item
   position from navigation readouts; verbose, the default, keeps them. The setting
   persists across sessions.
+- Ctrl plus S: back up the save you are playing. The game itself only autosaves (every
+  scene) and keeps chapter-start saves; backups go to
+  AppData\LocalLow\SEVER\The Life and Suffering of Sir Brante\BranteAccessBackups.
+- Ctrl plus L, on the main menu: restore the newest backup. The first press names the
+  backup's chapter and year, a second press within five seconds restores it; then choose
+  Continue. The files it replaces are kept under _before-restore in the same folder.
 
 ## Type-ahead search
 
