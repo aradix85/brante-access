@@ -81,6 +81,7 @@ screen.credits = jenerik
 # "Demir Adam" is the game's own Turkish name for the Iron Man mode.
 screen.chapterselect = bölüm seçimi
 chapterselect.locked = kullanılamaz, henüz ulaşılmadı
+chapterselect.progress = bölümler arasında kullanılamaz, bölümü yükleme ekranından yeniden başlatın
 chapterselect.ironman = kullanılamaz, Demir Adam modu
 
 hud.region = HUD

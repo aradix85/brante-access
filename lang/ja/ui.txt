@@ -80,6 +80,7 @@ screen.credits = クレジット
 # 「アイアンマン」 is the game's own Japanese name for the Iron Man mode.
 screen.chapterselect = 章選択
 chapterselect.locked = 利用不可、未到達
+chapterselect.progress = 章の合間は利用不可、章のやり直しはロード画面から
 chapterselect.ironman = 利用不可、アイアンマンモード
 
 hud.region = HUD

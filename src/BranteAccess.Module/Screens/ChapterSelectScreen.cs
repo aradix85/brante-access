@@ -14,7 +14,8 @@ namespace BranteAccess.Module.Screens
     /// text, which is what the slider position shows); each chapter icon restarts from that
     /// chapter through the game's own confirmation popup, with lock state read from the item's
     /// model (Interactable + IronManMode - Button.interactable here is hover animation, not
-    /// availability). Space on a chapter item reads the game's own restart help line. Escape is
+    /// availability); on the between-chapters variant they say restarts go through the load
+    /// screen instead of "not reached". Space on a chapter item reads the game's own restart help line. Escape is
     /// deliberately dead: the game blocks its Esc on this page too, and Quit to Main Menu is an
     /// explicit button.
     /// </summary>
@@ -34,6 +35,11 @@ namespace BranteAccess.Module.Screens
             .GetField("_continueButton", BindingFlags.NonPublic | BindingFlags.Instance);
         private static readonly FieldInfo HelpBoxField = typeof(LoadingScreen)
             .GetField("_restartHelpTextBox", BindingFlags.NonPublic | BindingFlags.Instance);
+        // True on the between-chapters variant: CheckChapterItem calls
+        // SetItemInteractive(_loadingProgressMode), which marks reached chapters visually but
+        // leaves them unclickable there, so "not reached" would be wrong for them.
+        private static readonly FieldInfo ProgressModeField = typeof(LoadingScreen)
+            .GetField("_loadingProgressMode", BindingFlags.NonPublic | BindingFlags.Instance);
         private static readonly FieldInfo[] ItemFields =
         {
             typeof(LoadingScreen).GetField("_childItem", BindingFlags.NonPublic | BindingFlags.Instance),
@@ -145,7 +151,11 @@ namespace BranteAccess.Module.Screens
         {
             if (_Scripts.Managers.GameManager.Instance.IronManMode)
                 return Loc.T("chapterselect.ironman");
-            return item.Interactable ? null : Loc.T("chapterselect.locked");
+            if (item.Interactable) return null;
+            var screen = Behaviour();
+            if (screen != null && ProgressModeField != null && (bool)ProgressModeField.GetValue(screen))
+                return Loc.T("chapterselect.progress");
+            return Loc.T("chapterselect.locked");
         }
     }
 }

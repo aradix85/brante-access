@@ -104,6 +104,7 @@ screen.credits = credits
 # Chapter select page (shown after picking a save; the page has no on-screen title)
 screen.chapterselect = chapter select
 chapterselect.locked = unavailable, not reached
+chapterselect.progress = unavailable between chapters, restart chapters from the load screen
 chapterselect.ironman = unavailable, Iron Man mode
 
 # HUD bar (year/chapter texts, window-button names, and lock reasons are all the game's own

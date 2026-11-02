@@ -80,6 +80,7 @@ screen.credits = 크레딧
 # "철인 모드" is the game's own Korean name for the Iron Man mode.
 screen.chapterselect = 챕터 선택
 chapterselect.locked = 사용 불가, 미도달
+chapterselect.progress = 챕터 사이에는 사용 불가, 챕터 재시작은 불러오기 화면에서
 chapterselect.ironman = 사용 불가, 철인 모드
 
 hud.region = HUD

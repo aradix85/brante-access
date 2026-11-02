@@ -78,6 +78,7 @@ screen.credits = twórcy
 # "Żelazny Człowiek" is the game's own Polish name for the Iron Man mode.
 screen.chapterselect = wybór rozdziału
 chapterselect.locked = niedostępne, jeszcze nieosiągnięte
+chapterselect.progress = niedostępne między rozdziałami, rozdział można zacząć od nowa z ekranu wczytywania
 chapterselect.ironman = niedostępne, tryb Żelazny Człowiek
 
 hud.region = HUD

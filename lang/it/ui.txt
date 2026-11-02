@@ -78,6 +78,7 @@ screen.credits = crediti
 # "Uomo di Ferro" is the game's own Italian name for the Iron Man mode.
 screen.chapterselect = selezione capitolo
 chapterselect.locked = non disponibile, non ancora raggiunto
+chapterselect.progress = non disponibile tra i capitoli, riavvia i capitoli dalla schermata di caricamento
 chapterselect.ironman = non disponibile, modalità Uomo di Ferro
 
 hud.region = HUD

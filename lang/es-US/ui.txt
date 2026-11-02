@@ -79,6 +79,7 @@ screen.credits = créditos
 
 screen.chapterselect = selección de capítulo
 chapterselect.locked = no disponible, aún no alcanzado
+chapterselect.progress = no disponible entre capítulos, reinicia capítulos desde la pantalla de carga
 chapterselect.ironman = no disponible, Modo Iron Man
 
 hud.region = HUD

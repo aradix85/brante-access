@@ -77,6 +77,7 @@ screen.credits = титры
 
 screen.chapterselect = выбор главы
 chapterselect.locked = недоступно, глава не достигнута
+chapterselect.progress = недоступно между главами, перезапуск главы через экран загрузки
 # The Russian game names the Iron Man feature "Возврат к главам" with state "Запрещен".
 chapterselect.ironman = недоступно, возврат к главам запрещен
 
